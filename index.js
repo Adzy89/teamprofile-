@@ -3,9 +3,9 @@ const fs = require("fs");
 const generateTeam = require('./src/page-tempate');
 
 
-const Engineer = require('./lib/classes');
-const Intern = require('./lib/classes');
-const Manager = require('./lib/classes');
+const Engineer = require('./lib/engineer');
+const Intern = require('./lib/intern');
+const Manager = require('./lib/manager');
 
 
 
@@ -13,10 +13,10 @@ const newStaffMemberData = [];
 
 
 async function questions() {
-    const { answers } = await inquirer.prompt([
+    const answers = await inquirer.prompt([
     {
       type: "input",
-      message: "What is your name?",
+      message: "What is your Name?",
       name: "name",
     },
     {
@@ -26,12 +26,12 @@ async function questions() {
     },
     {
       type: "input",
-      message: "What is your email?",
+      message: "What is your Email?",
       name: "email",
     },
     {
       type: "list",
-      message: "What is your role?",
+      message: "What is your postion?",
       name: "role",
       choices: ["Engineer", "Intern", "Manager"],
     },
@@ -115,12 +115,18 @@ async function promptQuestions() {
   
   promptQuestions();
   
-  function createTeam () {
-    console.log("new guy", newStaffMemberData)
-    fs.writeFileSync(
-    ".teamprofile\teamprofile-\dist\index.html",
-      generateTeam(newStaffMemberData),
-      "utf-8"
-    );
-  }
+  // function createTeam () {
+  //   console.log("new guy", newStaffMemberData)
+  //   fs.writeFileSync(
+  //   ".teamprofile\teamprofile-\dist\index.html",
+  //     generateTeam(newStaffMemberData),
+  //     "utf-8"
+  //   );
+  // }
   
+
+  function createTeam() {
+    const teamProfilePath = './dist/index.html';
+    console.log("new guy", newStaffMemberData);
+    fs.writeFileSync(teamProfilePath, generateTeam(newStaffMemberData), "utf-8");
+}

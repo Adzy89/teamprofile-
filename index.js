@@ -115,16 +115,6 @@ async function promptQuestions() {
   
   promptQuestions();
   
-  // function createTeam () {
-  //   console.log("new guy", newStaffMemberData)
-  //   fs.writeFileSync(
-  //   ".teamprofile\teamprofile-\dist\index.html",
-  //     generateTeam(newStaffMemberData),
-  //     "utf-8"
-  //   );
-  // }
-  
-
   function createTeam() {
     const teamProfilePath = './dist/index.html';
     console.log("new guy", newStaffMemberData);

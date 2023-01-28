@@ -5,19 +5,19 @@ test("create Employee instance", () => {
   expect(employee instanceof Employee).toBe(true);
   });
 
-test("set name through constructor", () => {
+test("get name through constructor", () => {
   const name = "Adam";
   const employee = new Employee(name);
   expect(employee.name).toBe(name);
 });
 
-test("set id through consrtuctor argument", () => {
+test("get id through consrtuctor argument", () => {
   const value = 100;
   const employee = new Employee("Adam", value);
   expect(employee.id).toBe(value);
 });
 
-test("set email through constructor argument", () => {
+test("get email through constructor argument", () => {
   const value = "adam@gmail.com";
   const employee = new Employee("Adam", 1, value);
   expect(employee.email).toBe(value);

@@ -8,10 +8,10 @@ const Intern = require('./lib/classes');
 const Manager = require('./lib/classes');
 
 
-//created an empty array for new staff member data
+
 const newStaffMemberData = [];
 
-//created an array of objects to ask questions about the user 
+
 async function questions() {
     const { answers } = await inquirer.prompt([
     {
@@ -37,8 +37,7 @@ async function questions() {
     },
   ])
 
-//console logging the data answers
-// if manger is selected this statement will run
+
 if (answers.role === "Manager") {
     const managerAns = await inquirer
     .prompt([
@@ -56,7 +55,7 @@ if (answers.role === "Manager") {
         );
     newStaffMemberData.push(newManager);
           
-// if engineer is selected this statement will run       
+    
 } else if (answers.role === "Engineer") {
     const githubAns = await inquirer
     .prompt([
@@ -74,7 +73,7 @@ if (answers.role === "Manager") {
         );
         newStaffMemberData.push(newEngineer);
           
- // if intern is selected this statement will run           
+          
 } else if (answers.role === "Intern") {
     const internAns = await inquirer
     .prompt([
@@ -96,7 +95,6 @@ if (answers.role === "Manager") {
     }
 };
 
-//function to add member to team  and prompted with next question 
 async function promptQuestions() {
     await questions()
     const addMemberAns = await inquirer

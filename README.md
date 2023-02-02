@@ -20,10 +20,14 @@ simply right click on index.js and select intergrated terminal. Once open, input
 
 ## Usage
 
-team profile generator to quickly find details about a team memeber
+Team Profile Generator to quickly find details about a team memeber
+
+![Uasge video](../teamprofile-/Untitled_%20Feb%202%2C%202023%2010_00%20PM.webm)
 
 ## Screenshot
 
+
+![Team Profile Generator](Team%20Profile%20Generator.png)
 
 
 ## Credits

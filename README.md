@@ -22,7 +22,7 @@ simply right click on index.js and select intergrated terminal. Once open, input
 
 Team Profile Generator to quickly find details about a team memeber
 
-![Uasge video](../teamprofile-/Untitled_%20Feb%202%2C%202023%2010_00%20PM.webm)
+![Uasge video](teamprofile-/Untitled_%20Feb%202%2C%202023%2010_00%20PM.webm)
 
 ## Screenshot
 

@@ -22,10 +22,11 @@ simply right click on index.js and select intergrated terminal. Once open, input
 
 Team Profile Generator to quickly find details about a team memeber
 
-![Uasge video](/teamprofile/teamprofile-/Untitled_%20Feb%202%2C%202023%2010_00%20PM.mp4)
-<!-- [![Usage Video]({})](/teamprofile/teamprofile-/Untitled_%20Feb%202%2C%202023%2010_00%20PM.webm) -->
+Please see video link below
 
-<iframe src="https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/preview" width="640" height="480"></iframe>
+1[<iframe src="https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/preview" width="640" height="480" "Usage video "></iframe>
+
+[![Usage Video]({image-url})]({https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/preview} "Usage Video")
 
 ## Screenshot
 

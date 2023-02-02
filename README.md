@@ -26,7 +26,9 @@ Please see video link below
 
 1[<iframe src="https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/preview" width="640" height="480" "Usage video "></iframe>
 
-[![Usage Video]({image-url})]({https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/preview} "Usage Video")
+[![Usage Video]({image-url})]({https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/view} "Usage Video")
+  
+  https://drive.google.com/file/d/1wZ_zqkaO1sDLPd06-8O-oDooCAB77NE1/view
 
 ## Screenshot
 
